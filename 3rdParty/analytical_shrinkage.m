@@ -6,7 +6,7 @@ function [sigmatilde,dtilde]=analytical_shrinkage(X,k)
 
 % If the second (optional) parameter k is absent, not-a-number, or empty, 
 % the algorithm demeans the data by default, and then adjusts 
-% the effective sample size accordingly by subtracting one. 
+% the effective sample size accordingly by subtracting one.
 
 % If the user inputs k = 0, then no demeaning takes place and
 % the effective sample size remains n.
